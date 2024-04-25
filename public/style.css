@@ -1,0 +1,24 @@
+h1 {
+    color: maroon;
+}
+
+.post {
+    background-color: blanchedalmond;
+}
+
+.user {
+    font-style: italic;
+}
+
+.main-div {
+    border: 2px solid black;
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 3rem;
+    margin-left: 20%;
+}
+
+.main-div a {
+    text-decoration: none;
+    color: dodgerblue;
+}

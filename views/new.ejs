@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Create New Post</title>
+    <style>
+      .main-div {
+        border: 2px solid black;
+        background-color: whitesmoke;
+        width: 30%;
+        padding: 3rem;
+        margin-left: 35%;
+        margin-top: 10%;
+      }
+      .main-div h2 {
+        color: dodgerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <h2>Create New Post</h2>
+      <hr />
+      <br />
+      <form method="post" action="/posts">
+        <input
+          type="text"
+          placeholder="Enter username"
+          name="username"
+        /><br /><br />
+        <textarea
+          name="content"
+          placeholder="Write your content"
+          rows="10"
+          cols="35"
+        ></textarea
+        ><br /><br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post in Detail</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      .main-div {
+        border: 2px solid black;
+        background-color: whitesmoke;
+        width: 30%;
+        padding: 3rem;
+        margin-left: 35%;
+        margin-top: 10%;
+      }
+      .main-div h2 {
+        color: dodgerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <h2>Here is your post in detail</h2>
+      <hr />
+      <p>post id: <%= post.id %></p>
+      <div class="post">
+        <h3 class="user">@<%= post.username %></h3>
+        <h4 class="content"><%= post.content %></h4>
+      </div>
+    </div>
+  </body>
+</html>
